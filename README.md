@@ -43,6 +43,19 @@ Expand-Archive .\postscale_1.0.0_windows_amd64.zip -DestinationPath "$env:LOCALA
 & "$env:LOCALAPPDATA\Postscale\bin\postscale.exe" --version
 ```
 
+### Homebrew
+
+On macOS or Linux:
+
+```sh
+brew install postscale/tap/postscale
+```
+
+The [official tap](https://github.com/postscale/homebrew-tap) selects your
+platform's release archive, verifies its checksum, and installs Bash, Zsh, and
+Fish completions. Upgrade with `brew upgrade postscale`, or uninstall with
+`brew uninstall postscale`.
+
 ### Install with Go
 
 Requires Go 1.25 or newer:
