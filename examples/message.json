@@ -1,0 +1,6 @@
+{
+  "from": "sender@example.com",
+  "to": ["recipient@example.net"],
+  "subject": "Hello from Postscale",
+  "text_body": "Hello"
+}
